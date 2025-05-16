@@ -6,6 +6,27 @@ Este proyecto implementa el algoritmo de búsqueda en profundidad (DFS) para gra
 
 El algoritmo DFS (Depth-First Search o Búsqueda en Profundidad) es un algoritmo para recorrer o buscar en un grafo. Comienza en un nodo raíz y explora tan lejos como sea posible a lo largo de cada rama antes de retroceder.
 
+## Instalación
+
+1. Clona este repositorio:
+```bash
+git clone https://github.com/SebassX69/DFS.git
+cd DFS
+```
+
+2. Instala las dependencias requeridas:
+```bash
+pip install -r requirements.txt
+```
+
+## Requisitos
+
+- Python 3.x
+- Dependencias de Python (se instalarán automáticamente con pip):
+  - networkx (para la manipulación del grafo)
+  - matplotlib (para la visualización)
+  - numpy (para cálculos numéricos)
+
 ## Características
 
 - Implementación de un grafo usando diccionarios

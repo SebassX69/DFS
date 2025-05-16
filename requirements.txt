@@ -1,3 +1,5 @@
 networkx>=3.1
 matplotlib>=3.7.1
-numpy>=2.0.0 
+numpy>=2.0.0
+pillow>=10.0.0  # Para el manejo de imágenes en matplotlib
+scipy>=1.11.0   # Dependencia de networkx para algoritmos 

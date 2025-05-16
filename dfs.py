@@ -98,20 +98,4 @@ class Graph:
                            interval=1000,  # 1 segundo entre frames
                            repeat=False)
         
-        plt.show()
-
-# Ejemplo de uso:
-if __name__ == "__main__":
-    g = Graph()
-    g.add_edge('A', 'B', weight=1)
-    g.add_edge('A', 'C', weight=1)
-    g.add_edge('B', 'D', weight=1)
-    g.add_edge('B', 'E', weight=1)
-    g.add_edge('C', 'F', weight=1)
-    g.add_edge('E', 'G', weight=1)
-    g.add_edge('F', 'H', weight=1)
-
-    print("Recorrido DFS:")
-    g.dfs_traversal('A')
-    print("\n\nVisualización del recorrido DFS:")
-    g.visualize_dfs() 
+        plt.show() 
